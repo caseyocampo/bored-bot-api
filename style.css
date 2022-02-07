@@ -27,6 +27,26 @@ a {
     color: darkslateblue;
 }
 
+.birb-top {
+    background-image: url('./images//birb.gif');
+    background-position: center;
+    display: none;
+    height: 100px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+.birb-bottom {
+    background-image: url('./images//birb.gif');
+    background-position: center;
+    display: none;
+    height: 100px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
 .credit {
     color: darkslategray;
     font-size: 0.8rem;
@@ -37,7 +57,7 @@ a {
 
 #activityMessage {
     font-size: clamp(1rem, 5vw, 2rem);
-    height: 200px;
+    height: 150px;
     margin-left: 1em;
     margin-right: 1em;
     text-align: center;
@@ -45,12 +65,11 @@ a {
 }
 
 .activityGlam {
-    color: violet;
     color: darkslateblue;
     /* background: -webkit-linear-gradient(45deg, violet, darkslateblue 95%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: darkslateblue; */
 }
 
 #randomActivityBtn {
