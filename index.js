@@ -4,7 +4,7 @@ function getRandomActivity() {
         .then(data => {
             document.getElementById(
                 'activityMessage'
-            ).innerHTML = `✨<span class="activityGlam"> ${data.activity}&nbsp;</span>✨`
+            ).innerHTML = `✨<span class="activityGlam">&nbsp;${data.activity}&nbsp;</span>✨`
         })
 }
 
