@@ -4,7 +4,7 @@ function getRandomActivity() {
         .then(data => {
             document.getElementById(
                 'activityMessage'
-            ).textContent = `${data.activity}`
+            ).textContent = `✨ ${data.activity} ✨`
             document
                 .getElementById('activityMessage')
                 .classList.add('activityGlam')

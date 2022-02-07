@@ -20,8 +20,15 @@ h1 {
     font-size: clamp(2rem, 5vw, 3rem);
     margin-left: 1em;
     margin-right: 1em;
-    margin-bottom: 10%;
     text-align: center;
+}
+
+.credit {
+    color: darkslategray;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 5em;
+    text-transform: uppercase;
 }
 
 #activityMessage {
