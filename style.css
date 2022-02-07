@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    align-items: center;
+    background: paleturquoise;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    color: darkslateblue;
+    font-size: clamp(3rem, 5vw, 3rem);
+    margin-bottom: 10%;
+}
+
+#activityMessage {
+    font-size: 2rem;
+    height: 200px;
+    text-align: center;
+    width: 500px;
+}
+
+.activityGlam {
+    color: violet;
+    background: -webkit-linear-gradient(45deg, violet, darkslateblue 95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#randomActivityBtn {
+    background: palegreen;
+    border-radius: 8px;
+    border: 2px solid darkslateblue;
+    color: darkslateblue;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1em;
+}
