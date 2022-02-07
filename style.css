@@ -46,10 +46,11 @@ a {
 
 .activityGlam {
     color: violet;
-    background: -webkit-linear-gradient(45deg, violet, darkslateblue 95%);
+    color: darkslateblue;
+    /* background: -webkit-linear-gradient(45deg, violet, darkslateblue 95%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 #randomActivityBtn {
