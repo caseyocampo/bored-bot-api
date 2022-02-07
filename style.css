@@ -17,15 +17,20 @@ body {
 
 h1 {
     color: darkslateblue;
-    font-size: clamp(3rem, 5vw, 3rem);
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-left: 1em;
+    margin-right: 1em;
     margin-bottom: 10%;
+    text-align: center;
 }
 
 #activityMessage {
-    font-size: 2rem;
+    font-size: clamp(1rem, 5vw, 2rem);
     height: 200px;
+    margin-left: 1em;
+    margin-right: 1em;
     text-align: center;
-    width: 500px;
+    max-width: 500px;
 }
 
 .activityGlam {
