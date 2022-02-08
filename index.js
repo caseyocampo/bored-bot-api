@@ -1,3 +1,6 @@
+const randomActivityBtn = document.getElementById('randomActivityBtn')
+randomActivityBtn.addEventListener('click', getRandomActivity)
+
 function getRandomActivity() {
     fetch('https://apis.scrimba.com/bored/api/activity')
         .then(response => response.json())
@@ -6,16 +9,21 @@ function getRandomActivity() {
                 'activityMessage'
             ).innerHTML = `✨<span class="activityGlam">&nbsp;${data.activity}&nbsp;</span>✨`
 
-            displayBirb()
+            displayImages()
         })
 }
 
-const randomActivityBtn = document.getElementById('randomActivityBtn')
-randomActivityBtn.addEventListener('click', getRandomActivity)
+function displayImages() {
+    const galleries = document.getElementsByClassName('gallery')
+    let randomIndex = Math.floor(Math.random() * 10) + 1
 
-function displayBirb() {
-    let birbs = document.getElementsByClassName('birb')
-    for (let birb of birbs) {
-        birb.style.display = 'block'
+    for (let gallery of galleries) {
+        if (gallery.classList.contains('topGallery')) {
+            gallery.classList.add('topGalleryImage')
+        } else if (gallery.classList.contains('bottomGallery')) {
+            gallery.classList.add('bottomGalleryImage')
+        }
+
+        gallery.style.backgroundImage = `url('./images/image-${randomIndex}.gif')`
     }
 }

@@ -27,24 +27,22 @@ a {
     color: darkslateblue;
 }
 
-.birb-top {
-    background-image: url('./images//birb.gif');
+.topGalleryImage {
     background-position: center;
-    display: none;
-    height: 10%;
-    width: 100vw;
+    display: block;
+    height: 12%;
     position: absolute;
     top: 0;
+    width: 100vw;
 }
 
-.birb-bottom {
-    background-image: url('./images//birb.gif');
+.bottomGalleryImage {
     background-position: center;
-    display: none;
-    height: 10%;
-    width: 100vw;
+    display: block;
+    height: 12%;
     position: absolute;
     bottom: 0;
+    width: 100vw;
 }
 
 .credit {
