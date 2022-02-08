@@ -31,7 +31,7 @@ a {
     background-image: url('./images//birb.gif');
     background-position: center;
     display: none;
-    height: 100px;
+    height: 10%;
     width: 100vw;
     position: absolute;
     top: 0;
@@ -41,7 +41,7 @@ a {
     background-image: url('./images//birb.gif');
     background-position: center;
     display: none;
-    height: 100px;
+    height: 10%;
     width: 100vw;
     position: absolute;
     bottom: 0;
