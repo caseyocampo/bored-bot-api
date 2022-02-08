@@ -59,15 +59,11 @@ a {
     margin-left: 1em;
     margin-right: 1em;
     text-align: center;
-    max-width: 500px;
+    max-width: 650px;
 }
 
 .activityGlam {
     color: darkslateblue;
-    /* background: -webkit-linear-gradient(45deg, violet, darkslateblue 95%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: darkslateblue; */
 }
 
 #randomActivityBtn {
