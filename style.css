@@ -77,3 +77,10 @@ a {
     margin-bottom: 3em;
     padding: 1em;
 }
+
+@media (max-width: 700px) {
+    .topGalleryImage,
+    .bottomGalleryImage {
+        height: 16%;
+    }
+}
