@@ -15,7 +15,8 @@ function getRandomActivity() {
 
 function displayImages() {
     const galleries = document.getElementsByClassName('gallery')
-    let randomIndex = Math.floor(Math.random() * 10) + 1
+    const numOfImages = 10
+    let randomIndex = Math.floor(Math.random() * numOfImages) + 1
 
     for (let gallery of galleries) {
         if (gallery.classList.contains('topGallery')) {

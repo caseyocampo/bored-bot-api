@@ -27,22 +27,29 @@ a {
     color: darkslateblue;
 }
 
-.topGalleryImage {
+.gallery {
     background-position: center;
-    display: block;
     height: 12%;
     position: absolute;
-    top: 0;
     width: 100vw;
 }
 
-.bottomGalleryImage {
-    background-position: center;
+.topGalleryImage {
+    /* background-position: center; */
     display: block;
-    height: 12%;
-    position: absolute;
+    /* height: 12%;
+    position: absolute; */
+    top: 0;
+    /* width: 100vw; */
+}
+
+.bottomGalleryImage {
+    /* background-position: center; */
+    display: block;
+    /* height: 12%; */
+    /* position: absolute; */
     bottom: 0;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .credit {
