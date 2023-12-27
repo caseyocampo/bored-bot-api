@@ -1,93 +1,98 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body {
-    align-items: center;
-    background: paleturquoise;
-    color: #222;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Karla', sans-serif;
-    justify-content: center;
-    height: 100%;
+  align-items: center;
+  background: paleturquoise;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  font-family: "Karla", sans-serif;
+  justify-content: center;
+  height: 100%;
 }
 
 h1 {
-    color: darkslateblue;
-    font-size: clamp(2rem, 5vw, 3rem);
-    margin-left: 1em;
-    margin-right: 1em;
-    text-align: center;
+  color: darkslateblue;
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
 }
 
 a {
-    color: darkslateblue;
+  color: darkslateblue;
 }
 
 .gallery {
-    background-position: center;
-    height: 12%;
-    position: absolute;
-    width: 100vw;
+  background-position: center;
+  height: 12%;
+  position: absolute;
+  width: 100vw;
 }
 
 .topGalleryImage {
-    /* background-position: center; */
-    display: block;
-    /* height: 12%;
+  /* background-position: center; */
+  display: block;
+  /* height: 12%;
     position: absolute; */
-    top: 0;
-    /* width: 100vw; */
+  top: 0;
+  /* width: 100vw; */
 }
 
 .bottomGalleryImage {
-    /* background-position: center; */
-    display: block;
-    /* height: 12%; */
-    /* position: absolute; */
-    bottom: 0;
-    /* width: 100vw; */
+  /* background-position: center; */
+  display: block;
+  /* height: 12%; */
+  /* position: absolute; */
+  bottom: 0;
+  /* width: 100vw; */
 }
 
 .credit {
-    color: darkslategray;
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-    margin-bottom: 5em;
-    text-transform: uppercase;
+  color: darkslategray;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 5em;
+  text-transform: uppercase;
 }
 
 #activityMessage {
-    font-size: clamp(1rem, 5vw, 2rem);
-    height: 150px;
-    margin-left: 1em;
-    margin-right: 1em;
-    text-align: center;
-    max-width: 650px;
+  font-size: clamp(1rem, 5vw, 2rem);
+  height: 150px;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+  max-width: 650px;
 }
 
 .activityGlam {
-    color: darkslateblue;
+  color: darkslateblue;
 }
 
 #randomActivityBtn {
-    background: palegreen;
-    border-radius: 8px;
-    border: 2px solid darkslateblue;
-    color: darkslateblue;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 3em;
-    padding: 1em;
+  background: palegreen;
+  border-radius: 8px;
+  border: 2px solid darkslateblue;
+  color: darkslateblue;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 3em;
+  padding: 1em;
 }
 
 @media (max-width: 700px) {
-    .topGalleryImage,
-    .bottomGalleryImage {
-        height: 16%;
-    }
+  .topGalleryImage,
+  .bottomGalleryImage {
+    height: 16%;
+  }
+}
+
+@media (prefers-reduced-motion) {
+ .topGalleryImage, .bottomGalleryImage {
+    display: none;
 }
