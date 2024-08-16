@@ -73,7 +73,7 @@ a {
   color: darkslateblue;
 }
 
-#randomActivityBtn {
+button {
   background: palegreen;
   border-radius: 8px;
   border: 2px solid darkslateblue;
