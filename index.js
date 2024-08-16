@@ -37,8 +37,16 @@ function getRandomActivity() {
 
             displayImages()
         })
-
-        removeGifBtn.style.display = 'block'
+        const galleries = document.getElementsByClassName('gallery')
+        for (let gallery of galleries) {
+            if (gallery.style.display = 'block') {
+                removeGifBtn.style.display = 'block'
+                showGifBtn.style.display = 'none'
+            } else {
+                removeGifBtn.style.display = 'none'
+                showGifBtn.style.display = 'block'
+            }
+        }
 }
 
 function displayImages() {
